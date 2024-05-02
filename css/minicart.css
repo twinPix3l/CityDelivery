@@ -1,0 +1,9 @@
+.minicart-form, .form_add {
+    width: 100%;
+    background-color: transparent;
+    padding: 0px;
+}
+
+form.minicart-form > div {
+   float: unset;
+}

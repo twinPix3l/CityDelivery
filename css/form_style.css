@@ -1,0 +1,104 @@
+/*body {
+    margin: 0;
+    font-family: var(--bs-body-font-family);
+    font-size: var(--bs-body-font-size);
+    font-weight: var(--bs-body-font-weight);
+    line-height: var(--bs-body-line-height);
+    color: var(--bs-body-color);
+    text-align: var(--bs-body-text-align);
+    background-color: #ffc107;
+    -webkit-text-size-adjust: 100%;
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+  }
+*/
+  .navbar-dark .navbar-brand {
+    color: #fd7e14;
+  }
+
+.background::after {
+        content: "";
+        background-image: url("../images/home.jpg");
+        background-size: cover;
+        background-repeat: no-repeat;
+        position: absolute;
+        top: 0px;
+        right: 0px;
+        bottom: 0px;
+        left: 0px;
+        opacity: 50%;
+        z-index: -1;
+      }
+.background {
+        position:relative;
+        width: 100%;
+        height: 100%;
+        display:contents;
+      }
+
+err {
+        margin: 0;
+        color: var(--bs-danger);
+      }
+    
+    input:focus{
+         outline:none;
+     }
+     
+     form{
+         width: 50%;
+         margin-left:auto;
+         margin-right:auto;
+         padding:50px;
+         background:rgb(220, 22, 220);
+         opacity:75%;
+         border-radius:5px;
+         position:relative;
+         font-family: 'Libre Franklin', sans-serif;
+         z-index: 1000;
+     }
+ 
+     form > div {
+         float:left;margin-bottom:30px;
+     }
+     form > div > p{
+         font-size: 12px;margin-bottom: 3px;
+     }
+     form > div > input{
+         font-size:12px;letter-spacing:1px;padding:  5px;border: 0;background:  whitesmoke;border-bottom: 1px solid silver;width: 100%;color: gray;
+     }
+ 
+     form > p:last-of-type{
+         text-align: center;padding-top: 50px;display:  table;width: 100%;color:white;
+     }
+ 
+     form > p:last-of-type > a{
+         cursor:pointer;border:0;
+         padding: 10px 25px;
+         background:  #ffc107;
+         border-radius:  28px;
+         font-size: 12px; 
+     }
+ 
+     .term{
+         padding-top:40px;display: flex;width:  100%;align-items:  center;
+     }
+ 
+     .term > i{
+         cursor:pointer;width:20px;
+     }
+ 
+     .term > span{
+         font-size:12px;
+     }
+ 
+     /* delete */
+     form > a:last-of-type{
+         position:absolute;
+         bottom: 10px;
+         right: 15px;
+         font-size:  10px;
+         letter-spacing:  1px;
+         font-style: italic;
+     }
+
+     
